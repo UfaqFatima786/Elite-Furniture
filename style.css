@@ -202,14 +202,95 @@ body {
 }
 
 .category-card:hover {
+    cursor: pointer;
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(129, 93, 47, 0.829);
 }
 
 .category-card:hover img {
+    cursor: pointer;
     transform: scale(1.08);
 }
 
+.why-choose {
+    background: #f3cba2;
+    padding: 90px 0;
+}
+
+.sub-heading {
+    display: inline-block;
+    background: #ead8c8;
+    color: #8b5e3c;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.main-heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: #2f2f2f;
+    margin-bottom: 15px;
+}
+
+.heading-text {
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+    line-height: 1.8;
+}
+
+.choose-card {
+    background: #d4a575;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+    height: 100%;
+}
+
+.icon-box {
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    border-radius: 50%;
+    background: #8b5e3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: .4s;
+}
+
+.icon-box i {
+    font-size: 34px;
+    color: #fff;
+}
+
+.choose-card h4 {
+    color: #2f2f2f;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.choose-card p {
+    color: #000000;
+    line-height: 1.8;
+}
+
+.choose-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+}
+
+.choose-card:hover .icon-box {
+    cursor: pointer;
+    transform: rotate(10deg) scale(1.1);
+    background: #d4a371;
+}
 
 @media(max-width:992px) {
 
@@ -236,6 +317,14 @@ body {
 
     .category-card img {
         height: 220px;
+    }
+
+    .main-heading {
+        font-size: 34px;
+    }
+
+    .choose-card {
+        padding: 35px 25px;
     }
 }
 
@@ -269,4 +358,24 @@ body {
         height: 200px;
     }
 
+    .why-choose {
+        padding: 70px 0;
+    }
+
+    .main-heading {
+        font-size: 28px;
+    }
+
+    .heading-text {
+        font-size: 15px;
+    }
+
+    .icon-box {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-box i {
+        font-size: 28px;
+    }
 }
