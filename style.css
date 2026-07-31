@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: linear-gradient(135deg, #fdd4b2, #fdbd47);
+    background: linear-gradient(135deg, #f0d2c6, #ee9f80);
     color: white;
     min-height: 100vh;
     margin: 0;
@@ -32,12 +32,12 @@ body {
 }
 
 .nav-link {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(104, 104, 104);
+    color: rgb(201, 201, 201);
 }
 
 .logo-1 {
@@ -71,7 +71,7 @@ body {
 }
 
 .hero p{
-    color:#666;
+    color:#000000;
     margin-top:25px;
     margin-bottom:35px;
     line-height:30px;
@@ -86,18 +86,18 @@ body {
 }
 
 .shop-btn{
-    background:#8B5E3C;
+    background:#865101;
     color:white;
 }
 
 .shop-btn:hover{
-    background:#6E4728;
+    background:#865101;
     color:white;
 }
 
 .explore-btn{
     border:2px solid #8B5E3C;
-    color:#8B5E3C;
+    color:#865101;
 }
 
 .explore-btn:hover{
@@ -110,17 +110,25 @@ body {
 }
 
 .stats h3{
-    color:#8B5E3C;
+    color:#865101;
     font-size:32px;
     font-weight:bold;
 }
 .stats span{
-    color:#666;
+    color:#000000;
 }
 
 .hero-img{
     width:100%;
-    max-width:550px;
+    max-width:650px;
+    border-radius: 20px;
+    animation:float 4s ease-in-out infinite;
+}
+.hero-img:hover{
+    cursor: pointer;
+    width:100%;
+    max-width:660px;
+    border-radius: 20px;
     animation:float 4s ease-in-out infinite;
 }
 

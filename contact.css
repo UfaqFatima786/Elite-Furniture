@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: linear-gradient(135deg, #fdd4b2, #fdbd47);
+    background: linear-gradient(135deg, #f0d2c6, #ee9f80);
     color: white;
     min-height: 100vh;
     margin: 0;
@@ -22,9 +22,9 @@ body {
     /* background-color: #865101;
     border-radius: 20px;
     box-shadow: #9aecbc; */
-       background-color: #865101;
+    background-color: #865101;
     border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
     position: sticky;
     top: 0;
@@ -32,12 +32,12 @@ body {
 }
 
 .nav-link {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(104, 104, 104);
+    color: rgb(148, 138, 138);
 }
 
 .logo-1 {

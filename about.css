@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: linear-gradient(135deg, #fdd4b2, #fdbd47);
+    background: linear-gradient(135deg, #f0d2c6, #ee9f80);
     color: white;
     min-height: 100vh;
     margin: 0;
@@ -29,12 +29,12 @@ body {
 }
 
 .nav-link {
-    color: rgb(0, 0, 0);
+    color: rgb(241, 229, 229);
 }
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(104, 104, 104);
+    color: rgb(223, 223, 223);
 }
 
 .logo-1 {
