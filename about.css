@@ -141,6 +141,7 @@ body {
     animation-name: __pulse;
     animation-duration: 2s;
 }
+
 .story-tag {
     display: inline-block;
     background: #ead8c8;
@@ -173,6 +174,91 @@ body {
     color: #666;
 }
 
+.our-team {
+    background: #f8cfa6;
+    padding: 90px 0;
+}
+
+.team-tag {
+    display: inline-block;
+    background: #ead8c8;
+    color: #8B5E3C;
+    padding: 8px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.our-team h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+
+.our-team p {
+    max-width: 650px;
+    margin: 15px auto;
+    color: #666;
+    line-height: 1.8;
+}
+
+.team-card {
+    background: #e2aa8a;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+    transition: .4s;
+}
+
+.team-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.team-content {
+    padding: 25px;
+}
+
+.team-content h4 {
+    font-weight: 700;
+    color: #2f2f2f;
+}
+
+.team-content span {
+    color: #8B5E3C;
+    font-weight: 600;
+}
+
+.team-social {
+    margin-top: 18px;
+}
+
+.team-social a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #8B5E3C;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.team-social a:hover {
+    cursor: pointer;
+    background: #D4A373;
+    transform: translateY(-5px);
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
 @media(max-width:992px) {
 
     .about-hero {
@@ -202,6 +288,13 @@ body {
 }
 
 @media(max-width:768px) {
+    .our-team h2 {
+        font-size: 30px;
+    }
+
+    .team-card img {
+        height: 280px;
+    }
 
     .about-hero {
         padding: 70px 0;
