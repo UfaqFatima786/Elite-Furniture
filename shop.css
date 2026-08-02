@@ -19,13 +19,9 @@ body {
 }
 
 .navbar {
-    /* background-color: #865101;
-    border-radius: 20px;
-    box-shadow: #9aecbc; */
     background-color: #865101;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-
     position: sticky;
     top: 0;
     z-index: 999;
@@ -45,3 +41,11 @@ body {
     height: 70px;
     border-radius: 50%;
 }
+
+
+
+
+
+
+
+
