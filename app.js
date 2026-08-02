@@ -1,3 +1,10 @@
+let tween = gsap.to("#text", {
+    text: { value: "Welcome to Elite Furniture Store!" },
+    duration: 3,
+    delay: 1,
+    ease: "none"
+})
+
 function allFurniture(a, b, c) {
     this.name = a;
     this.price = b;
@@ -19,7 +26,7 @@ var bedroom = [
 ];
 var dining = [
     new allFurniture("6-Seater Dining Table", "$899", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyaCXebYIDhtTyszJmtBH1Ws_72vWIFeLGjaFVVuakxg&s=10"),
-    new allFurniture("Wooden Dining Table", "$700", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQj5Pz3q9mmIPf1VtZbYjo-eOJ2MWChSTaSqHHJvPJbA&s=10"),
+    new allFurniture("Wooden Dining Table", "$700", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5BVxyd_4yTr5tZ836__oVH8OQ2_w12SB8K_M43qlVQ&s=10"),
     new allFurniture("Buffet Storage Cabinet", "$800", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzNFMIbFsuT2uCAHxeGHjH9d6cQDzv0g5hkgUC9w2Q8g&s=10"),
     new allFurniture("Modern Bar Stool", "$150", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJH4AXUyr98BCmkBlpJiydTVZaXbZ0XV32RTcBDdt4A&s=10"),
 ];
@@ -113,19 +120,19 @@ function addToCart(product) {
     mainContent.innerHTML = `
     
         <h1 class="text-center productname mt-4">
-        Product Added Successfully!
+        Hurry ! Product Added
         </h1>
         <div class="card mt-4 p-4 shadow-lg mx-auto"
         style="max-width: 500px;
         border-radius: 15px;
-        background: #c75555;">
+        background: #f7bca1;">
 
             <img src="${product.src}"
             class="card-img-top mx-auto my-5"
             style="max-width: 350px;
             width: 300px;
             height: 300px;
-            border-radius: 50%;
+            border-radius: 20px;
             object-fit: cover:
             border:2px solid black">
 
@@ -136,8 +143,8 @@ function addToCart(product) {
                 </h3>
 
                 <div class="mt-3">
-                    <h4 class="text-success fw-bold m-0 p-3"
-                    style="background: #ffffff;
+                    <h4 class="text fw-bold m-0 p-3"
+                    style="background: #000000;
                     border-radius: 10px;">
                     Price: ${product.price}
                     </h4>
