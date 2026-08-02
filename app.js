@@ -93,7 +93,7 @@ function showCart() {
         <img src="${item.src}" width="50">
 
         <div>
-        <div>${item.name}</div>
+        <div class="name">${item.name}</div>
         <div>${item.price}</div>
         </div>
 
@@ -149,7 +149,7 @@ function addToCart(product) {
                     Price: ${product.price}
                     </h4>
                 </div>
-                <button onclick="location.reload()" class="btn btn-warning btn-lg mt-4 w-100 fw-bold"> Continue Shopping </button>
+                <button onclick="location.reload()" class="btn btn-lg mt-4 w-100 fw-bold"> Continue Shopping </button>
 
             </div>
 
