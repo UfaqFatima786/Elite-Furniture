@@ -45,10 +45,10 @@ allFurniture.prototype.renderCard = function () {
       <div class="card-body">
         <h5 class="card-title">${this.name.toUpperCase()}</h5>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Price:${this.price}</small>
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <small class="text">Price:${this.price}</small>
  <button onclick='addToCart(${JSON.stringify(this)})'
-        class="bg-black text-white px-2 py-2 rounded border-0">
+        class="bg-white text-black px-2 py-2 rounded border-0">
         Add to Cart
         </button>
       </div>
