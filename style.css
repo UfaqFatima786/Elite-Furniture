@@ -371,10 +371,20 @@ body {
 }
 
 .product-card {
-    background: #fff;
+    background: #f3ddc8;
     border-radius: 18px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.719);
+    transition: .4s;
+    height: 100%;
+}
+.product-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    background: #f0b38a;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(116, 44, 2, 0.719);
     transition: .4s;
     height: 100%;
 }
