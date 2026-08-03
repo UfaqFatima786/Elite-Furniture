@@ -51,27 +51,26 @@ body {
 .headingfurniture {
     font-weight: 600;
     background-color: #75462a;
-    color: #ffffff;
+    color: #fff;
     width: 500px;
     text-align: center;
     font-style: italic;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: auto;
-    /* center */
     border: 2px solid white;
     border-radius: 10px;
-
+    padding: 12px 20px;
+    transition: all .4s ease;
 }
 
 .headingfurniture:hover {
     font-weight: 700;
     background-color: #f8c7b1;
-    color: #000000;
-    width: 500px;
-    text-align: center;
-    padding-right: 500px;
-    border-radius: 2px solid rgb(121, 45, 2) !important;
+    color: #000;
+    border: 2px solid rgb(121, 45, 2);
+    border-radius: 10px;
     cursor: pointer;
+    transform: scale(1.03);
 }
 
 .card-title {
@@ -107,33 +106,39 @@ body {
     background-color: #864101;
 }
 
-.productname{
+.productname {
     color: #000000;
     font-weight: 700;
 }
-.card{
+
+.card {
     border: 2px solid #522202;
- border-radius: 20px;
+    border-radius: 20px;
     background-color: #f8c4b0;
     transition: .3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.76);
 }
-.card:hover{
+
+.card:hover {
     cursor: pointer;
     transform: scale(1.02);
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.76);
 }
-.card-title{
+
+.card-title {
     text-align: center;
     font-weight: 700;
 }
+
 .text {
     color: #992400;
 }
-.name{
+
+.name {
     background: #000000;
     color: #ffffff;
 }
+
 /* .full-card {
     border: 2px solid #522202;
     border-radius: 20px;
@@ -230,14 +235,15 @@ body {
     margin: 0;
     color: #cfcfcf;
 }
+
 @media (max-width: 992px) {
-    .navbar{
+    .navbar {
         text-align: center;
     }
 }
 
 @media (max-width: 768px) {
-   
+
     .footer {
         text-align: center;
     }
@@ -253,5 +259,24 @@ body {
 
     .footer h4 {
         margin-top: 20px;
+    }
+}
+
+
+@media (max-width:570px) {
+
+    .headingfurniture {
+
+        width: 90%;
+        font-size: 24px;
+        padding: 12px 15px;
+
+    }
+
+    .headingfurniture:hover {
+
+        width: 90%;
+        transform: scale(1.02);
+
     }
 }
