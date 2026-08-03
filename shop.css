@@ -119,9 +119,6 @@ body {
     color: #ffffff;
 }
 
-
-
-
 .footer {
     background-color: #753602;
     color: #fff;
@@ -205,16 +202,12 @@ body {
 }
 
 .copyright {
-
     text-align: center;
-
 }
 
 .copyright p {
-
     margin: 0;
     color: #cfcfcf;
-
 }
 
 @media (max-width: 768px) {
